@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rokucommunity/release-testing/issues"
   },
-  "homepage": "https://github.com/rokucommunity/release-testing#readme"
+  "homepage": "https://github.com/rokucommunity/release-testing#readme",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
 }
