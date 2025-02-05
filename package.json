@@ -4,7 +4,9 @@
   "description": "Repo for testing out new CI setup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "echo \"Place holder for lint command\"",
+    "test": "echo \"Place holder for test command\"",
+    "build": "echo \"Place holder for build command\" && mkdir out && echo \"Hello World!\" > out/hello.txt"
   },
   "repository": {
     "type": "git",
