@@ -1,0 +1,33 @@
+name: Build Release
+
+on:
+  pull_request:
+    types:
+      - reopened
+      - opened
+      - synchronize
+    paths:
+        - 'package.json'
+        - 'package-lock.json'
+
+jobs:
+  call:
+      if: startsWith( github.head_ref, 'release/') 
+      uses: rokucommunity/.github/.github/workflows/pre-build-release.yml@master
+      with:
+        branch: ${{ github.event.inputs.branch }}
+      secrets: inherit
+
+  call:
+      needs: [call-pre-build-release]
+      uses: rokucommunity/.github/.github/workflows/build-release.yml@master
+      with:
+        branch: ${{ github.event.pull_request.head.ref }}
+      secrets: inherit
+
+  call:
+      needs: [call-build-release]
+      uses: rokucommunity/.github/.github/workflows/post-build-release.yml@master
+      with:
+        branch: ${{ github.event.pull_request.head.ref }}
+      secrets: inherit
