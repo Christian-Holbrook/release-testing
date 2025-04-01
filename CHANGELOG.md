@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [1.1.2](https://github.com/rokucommunity/release-testing/compare/v1.1.1...v1.1.2) - 2025-04-01
+### Changed
+ - Update publish-release.yml ([2badcc3](https://github.com/rokucommunity/release-testing/commit/2badcc3))
+
+
+
 ## [1.1.1](https://github.com/rokucommunity/release-testing/compare/c4f4eaf897e85a7e09d470991faed2ba2544330a...v1.1.1) - 2025-04-01
 ### Changed
  - Create make-release-artifacts.yml ([8ab4de8](https://github.com/rokucommunity/release-testing/commit/8ab4de8))
