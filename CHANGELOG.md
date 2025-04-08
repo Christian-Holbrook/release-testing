@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [1.2.0](https://github.com/rokucommunity/release-testing/compare/v1.1.4...v1.2.0) - 2025-04-08
+### Changed
+ - Use the workflows-ref ([2cec60d](https://github.com/rokucommunity/release-testing/commit/2cec60d))
+ - Merge pull request #38 from rokucommunity/release/1.1.5 ([ea02e84](https://github.com/rokucommunity/release-testing/commit/ea02e84))
+ - Update ref to workflows-ref. Fix indentation ([a858c16](https://github.com/rokucommunity/release-testing/commit/a858c16))
+
+
+
 ## [1.1.5](https://github.com/rokucommunity/release-testing/compare/v1.1.4...v1.1.5) - 2025-04-08
 ### Changed
  - Update ref to workflows-ref. Fix indentation ([a858c16](https://github.com/rokucommunity/release-testing/commit/a858c16))
