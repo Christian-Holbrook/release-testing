@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [1.1.5](https://github.com/rokucommunity/release-testing/compare/v1.1.4...v1.1.5) - 2025-04-08
+### Changed
+ - Update ref to workflows-ref. Fix indentation ([a858c16](https://github.com/rokucommunity/release-testing/commit/a858c16))
+
+
+
 ## [1.1.4](https://github.com/rokucommunity/release-testing/compare/v1.1.3...v1.1.4) - 2025-04-08
 ### Changed
  - Use - instead of _ for the package.json name ([2c36156](https://github.com/rokucommunity/release-testing/commit/2c36156))
