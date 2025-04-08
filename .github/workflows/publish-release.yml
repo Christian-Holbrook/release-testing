@@ -11,7 +11,7 @@ on:
 jobs:
   run:
     if: startsWith( github.head_ref, 'release/') && (github.event.pull_request.merged == true)
-    uses: rokucommunity/workflows/.github/workflows/publish-release.yml@master
+    uses: rokucommunity/workflows/.github/workflows/publish-release.yml@develop
     with:
       release-type: "" # "vsce"
       ref: ${{ github.event.pull_request.merge_commit_sha }}
