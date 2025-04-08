@@ -30,4 +30,5 @@ jobs:
       branch: ${{ github.event.inputs.branch }}
       releaseType: ${{ github.event.inputs.releaseType }}
       installDependencies: ${{ github.event.inputs.installDependencies }}
+      ref: ${{ 'develop' }}
     secrets: inherit
