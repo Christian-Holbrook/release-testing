@@ -1,0 +1,43 @@
+name: Initialize Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        type: string
+        description: "The branch to create the release from"
+        default: "master"
+        required: true
+      releaseType:
+        type: choice
+        description: "The type of release: major, minor, or patch"
+        required: true
+        default: "patch"
+        options:
+          - major
+          - minor
+          - patch
+          - pre
+          - premajor
+          - preminor
+          - prepatch
+      preid:
+        type: string
+        description: "The name for the pre-release identifier"
+        default: ""
+        required: true
+      installDependencies:
+        type: boolean
+        description: "Install latest RokuCommunity dependencies"
+        required: true
+        default: true
+
+jobs:
+  run:
+    uses: rokucommunity/workflows/.github/workflows/initialize-release.yml@master
+    with:
+      branch: ${{ github.event.inputs.branch }}
+      releaseType: ${{ github.event.inputs.releaseType }}
+      preid: ${{ github.event.inputs.preid }}
+      installDependencies: ${{ github.event.inputs.installDependencies }}
+    secrets: inherit
