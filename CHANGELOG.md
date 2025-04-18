@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [2.0.0-alpha.1](https://github.com/rokucommunity/release-testing/compare/v1.2.3...v2.0.0-alpha.1) - 2025-04-18
+### Changed
+ - Increment version to 1.2.3 ([1121331](https://github.com/rokucommunity/release-testing/commit/1121331))
+ - Merge pull request #54 from rokucommunity/release/2.0.0-alpha.0 ([8188b5f](https://github.com/rokucommunity/release-testing/commit/8188b5f))
+
+
+
 ## [1.2.2](https://github.com/rokucommunity/release-testing/compare/v1.2.1...v1.2.2) - 2025-04-17
 ### Changed
  - Set the preid to not be required so that it can be an empty string ([0ef847f](https://github.com/rokucommunity/release-testing/commit/0ef847f))
