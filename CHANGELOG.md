@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [2.0.0-alpha.3](https://github.com/rokucommunity/release-testing/compare/v1.2.4...v2.0.0-alpha.3) - 2025-04-18
+### Changed
+ - Increment version to 1.2.4 ([8b80ce6](https://github.com/rokucommunity/release-testing/commit/8b80ce6))
+ - Increment version to 1.2.4 ([a806921](https://github.com/rokucommunity/release-testing/commit/a806921))
+ - Merge pull request #57 from rokucommunity/release/2.0.0-alpha.2 ([8c519fc](https://github.com/rokucommunity/release-testing/commit/8c519fc))
+ - Resolve merge conflict ([edea63b](https://github.com/rokucommunity/release-testing/commit/edea63b))
+ - Merge pull request #56 from rokucommunity/release/2.0.0-alpha.1 ([2856db1](https://github.com/rokucommunity/release-testing/commit/2856db1))
+ - Merge pull request #54 from rokucommunity/release/2.0.0-alpha.0 ([8188b5f](https://github.com/rokucommunity/release-testing/commit/8188b5f))
+
+
+
 ## [2.0.0-alpha.2](https://github.com/rokucommunity/release-testing/compare/v1.2.3...v2.0.0-alpha.2) - 2025-04-18
 ### Changed
  - Resolve merge conflict ([edea63b](https://github.com/rokucommunity/release-testing/commit/edea63b))
