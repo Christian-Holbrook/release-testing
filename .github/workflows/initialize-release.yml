@@ -5,25 +5,22 @@ on:
     inputs:
       branch:
         type: string
-        description: "The branch to create the release from"
+        description: "Create release from this branch:"
         default: "master"
         required: true
       releaseType:
         type: choice
-        description: "The type of release: major, minor, or patch"
+        description: "Release type:"
         required: true
         default: "patch"
         options:
           - major
           - minor
           - patch
-          - pre
-          - premajor
-          - preminor
-          - prepatch
-      preid:
+          - prerelease
+      customVersion:
         type: string
-        description: "The name for the pre-release identifier"
+        description: "Version override: (ignore release type)"
         default: ""
         required: false
       installDependencies:
@@ -39,6 +36,7 @@ jobs:
       branch: ${{ github.event.inputs.branch }}
       releaseType: ${{ github.event.inputs.releaseType }}
       preid: ${{ github.event.inputs.preid }}
+      customVersion: ${{ github.event.inputs.customVersion }}
       installDependencies: ${{ github.event.inputs.installDependencies }}
       workflows-ref: ${{ 'develop' }}
     secrets: inherit
