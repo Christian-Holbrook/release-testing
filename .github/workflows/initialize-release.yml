@@ -5,7 +5,7 @@ on:
     inputs:
       branch:
         type: string
-        description: "Create release from this branch"
+        description: "Create release from this branch:"
         default: "master"
         required: true
       releaseType:
