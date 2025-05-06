@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/rokucommunity/release-testing#readme",
   "dependencies": {
-    "brighterscript": "^0.67.0",
+    "brighterscript": "^0.67.8",
     "yargs": "^17.7.2"
   }
 }
