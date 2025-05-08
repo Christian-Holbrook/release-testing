@@ -10,7 +10,7 @@ on:
 
 jobs:
   run:
-    uses: rokucommunity/workflows/.github/workflows/publish-release.yml@master
+    uses: rokucommunity/workflows/.github/workflows/publish-release.yml@develop
     with:
       release-type: "npm" # "vsce"
       ref: ${{ github.event.pull_request.merge_commit_sha }}
