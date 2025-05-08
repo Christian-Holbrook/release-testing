@@ -15,7 +15,7 @@ jobs:
       branch: ${{ github.event.pull_request.head.ref }}
       node-version: "16.20.2"
       artifact-paths: "./*.tgz" # "*.vsix"
-      workflow-ref: 'develop'
+      workflows-ref: 'develop'
     secrets: inherit
 
   success-or-skip:
