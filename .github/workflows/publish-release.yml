@@ -15,5 +15,5 @@ jobs:
       release-type: "npm" # "vsce"
       ref: ${{ github.event.pull_request.merge_commit_sha }}
       merged: ${{ github.event.pull_request.merged }}
-      workflow-ref: 'develop'
+      workflows-ref: 'develop'
     secrets: inherit
