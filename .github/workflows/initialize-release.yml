@@ -37,5 +37,5 @@ jobs:
       releaseType: ${{ github.event.inputs.releaseType }}
       customVersion: ${{ github.event.inputs.customVersion }}
       installDependencies: ${{ github.event.inputs.installDependencies }}
-      workflow-ref: 'develop'
+      workflows-ref: 'develop'
     secrets: inherit
