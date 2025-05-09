@@ -12,7 +12,7 @@ jobs:
   run:
     uses: rokucommunity/workflows/.github/workflows/publish-release.yml@develop
     with:
-      release-type: "npm" # "vsce"
+      release-type: "" # "vsce"
       ref: ${{ github.event.pull_request.merge_commit_sha }}
       workflows-ref: 'develop'
     secrets: inherit
