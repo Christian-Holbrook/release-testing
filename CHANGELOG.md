@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
+## [2.1.7](https://github.com/rokucommunity/release-testing/compare/2.1.6...v2.1.7) - 2025-05-09
+### Changed
+ - Update publish-release.yml ([26d22ff](https://github.com/rokucommunity/release-testing/commit/26d22ff))
+ - upgrade to [brighterscript@0.69.9](https://github.com/rokucommunity/brighterscript/blob/master/CHANGELOG.md#0699---2025-05-09). Notable changes since 0.69.8:
+     - removed no-throw-literal lint rule ([brighterscript#1489](https://github.com/rokucommunity/brighterscript/pull/1489))
+     - Add `bsc0` cli binary name ([brighterscript#1490](https://github.com/rokucommunity/brighterscript/pull/1490))
+
+
+
 ## [2.1.6](https://github.com/rokucommunity/release-testing/compare/2.1.5...v2.1.6) - 2025-05-08
 ### Changed
  - Update publish-release.yml ([d0988b3](https://github.com/rokucommunity/release-testing/commit/d0988b3))
