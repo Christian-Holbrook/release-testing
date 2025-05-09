@@ -1,7 +1,7 @@
 {
   "name": "release-testing",
   "version": "5.0.0",
-  "description": "Repo for testing out new CI seup",
+  "description": "Repo for testing out new CI setup",
   "main": "index.js",
   "scripts": {
     "lint": "echo \"Place holder for lint command\"",
